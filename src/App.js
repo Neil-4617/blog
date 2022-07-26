@@ -1,18 +1,18 @@
+import Box from '@mui/material/Box'
 import './App.css';
 
 // components
-import Navbar from './components/Navbar'
+import Navbar from './components/layout/Navbar'
+import MainSection from './components/layout/MainSection'
+import Footer from './components/layout/Footer'
 
 const App = () => {
   return (
-    <Navbar />
-    
-      /*navbar
-      header
-      sidebar
-      main content
-      footer*/
-    
+    <Box>
+      <Navbar />
+      <MainSection />
+      <Footer />
+    </Box>
   )
 }
 

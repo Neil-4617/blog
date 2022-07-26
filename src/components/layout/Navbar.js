@@ -7,8 +7,8 @@ import {useTheme} from '@mui/material/styles'
 import {useMediaQuery} from '@mui/material'
 
 // component
-import NavMobile from './mobile/NavMobile'
-import NavDesktop from './desktop/NavDesktop'
+import NavMobile from '../mobile/NavMobile'
+import NavDesktop from '../desktop/NavDesktop'
 
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
 
 	return (
 		<Box>
-			<AppBar component='nav' >
+			<AppBar component='nav' position="sticky" >
 				<Container maxWidth ='xl'>
 					<Toolbar disableGutters>
 						<Box>
